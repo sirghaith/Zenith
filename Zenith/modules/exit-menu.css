@@ -26,7 +26,10 @@
   background-color: hsl(0, 50%, 50%) !important;
 }
 
-.titlebar-button::before {
+.titlebar-close::before,
+.titlebar-max::before,
+.titlebar-restore::before,
+.titlebar-min::before {
   visibility: hidden !important;
 }
 
